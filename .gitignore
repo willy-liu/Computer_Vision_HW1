@@ -3,3 +3,6 @@
 
 # test files
 *test*
+
+# ignore python cache files
+__pycache__/
