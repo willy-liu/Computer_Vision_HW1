@@ -162,7 +162,7 @@ def show_undistorted_result(main_window: MainWindow):
 
         cv2.imshow('Distorted image', img)
         cv2.imshow('Undistorted image', result_img)
-        cv2.waitKey(3000)
+        cv2.waitKey(10000)
         cv2.destroyAllWindows()
     except Exception as e:
         main_window.show_message("Error", str(e))
